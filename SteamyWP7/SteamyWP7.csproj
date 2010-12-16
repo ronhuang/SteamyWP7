@@ -105,11 +105,6 @@
     </Content>
     <Resource Include="PanoramaBackground.png" />
     <Content Include="SplashScreenImage.jpg" />
-    <Resource Include="SampleData\ProfileDataSource\ProfileDataSource_Files\image01.png" />
-    <Resource Include="SampleData\ProfileDataSource\ProfileDataSource_Files\image02.png" />
-    <Resource Include="SampleData\ProfileDataSource\ProfileDataSource_Files\image03.png" />
-    <Resource Include="SampleData\ProfileDataSource\ProfileDataSource_Files\image04.png" />
-    <Resource Include="SampleData\ProfileDataSource\ProfileDataSource_Files\image05.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
