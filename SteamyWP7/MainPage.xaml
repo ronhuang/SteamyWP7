@@ -30,9 +30,9 @@
  
             <!--Panorama item one-->
             <controls:PanoramaItem Header="rate" DataContext="{Binding Source={StaticResource ProfileDataSource}}">
-            	<Grid Height="498" Margin="0,0,-12,0">
+            	<Grid Margin="0,0,-12,0">
             		<Image Source="{Binding Collection[0].Picture}" />
-            		<Grid VerticalAlignment="Bottom" Opacity="0.2">
+            		<Grid VerticalAlignment="Bottom" Opacity="0.1" Background="{StaticResource PhoneBackgroundBrush}">
             			<Grid.ColumnDefinitions>
             				<ColumnDefinition Width="0.2*"/>
             				<ColumnDefinition Width="0.2*"/>
@@ -44,16 +44,16 @@
             				<RowDefinition Height="0.5*"/>
             				<RowDefinition Height="0.5*"/>
             			</Grid.RowDefinitions>
-            			<Button Content="1"/>
-            			<Button Content="2" Grid.Column="1"/>
-            			<Button Content="3" Grid.Column="2"/>
-            			<Button Content="4" Grid.Column="3"/>
-            			<Button Content="5" Grid.Column="4"/>
-            			<Button Content="6" Grid.Row="1"/>
-            			<Button Content="7" Grid.Row="1" Grid.Column="1"/>
-            			<Button Content="8" Grid.Row="1" Grid.Column="2"/>
-            			<Button Content="9" Grid.Row="1" Grid.Column="3"/>
-            			<Button Content="10" Grid.Row="1" Grid.Column="4"/>
+            			<Button Content="1" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="2" Grid.Column="1" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="3" Grid.Column="2" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="4" Grid.Column="3" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="5" Grid.Column="4" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="6" Grid.Row="1" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="7" Grid.Row="1" Grid.Column="1" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="8" Grid.Row="1" Grid.Column="2" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="9" Grid.Row="1" Grid.Column="3" FontSize="{StaticResource PhoneFontSizeNormal}"/>
+            			<Button Content="10" Grid.Row="1" Grid.Column="4" FontSize="{StaticResource PhoneFontSizeNormal}"/>
             		</Grid>
             	</Grid>
             </controls:PanoramaItem>
@@ -91,6 +91,7 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
             </controls:PanoramaItem>
+
             <controls:PanoramaItem Header="more">
             	<Grid/>
             </controls:PanoramaItem>
